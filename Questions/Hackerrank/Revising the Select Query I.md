@@ -7,6 +7,7 @@ The CITY table is described as follows:
 <img width="388" alt="Screenshot 2024-01-11 at 10 38 12 AM" src="https://github.com/SiddharthMathurDeveloper/Database-Management-System-DBMS/assets/133037456/85703bf5-1ab8-445f-9359-6ac64dbe4025">
 
 
+## Solution
 ```sql
 select * from CITY where COUNTRYCODE = 'USA' AND POPULATION > 100000;
 ```
